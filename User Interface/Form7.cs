@@ -442,7 +442,7 @@ namespace User_Interface
             }
         }
 
-        private void ExportToExcel()
+        private void GenerateAttorneyCases()
         {
             try
             {
@@ -838,7 +838,7 @@ namespace User_Interface
 
         private void exportAtty_Click(object sender, EventArgs e)
         {
-            ExportToExcel();
+            GenerateAttorneyCases();
         }
 
         private void caseReport_Click(object sender, EventArgs e)
